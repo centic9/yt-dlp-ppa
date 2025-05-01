@@ -1,0 +1,452 @@
+yt-dlp (2025.04.30-1) unstable; urgency=medium
+
+  * New upstream version 2025.04.30.
+
+ -- Unit 193 <unit193@debian.org>  Wed, 30 Apr 2025 21:06:35 -0400
+
+yt-dlp (2025.03.31-1) unstable; urgency=medium
+
+  * New upstream version 2025.03.31.
+
+ -- Unit 193 <unit193@debian.org>  Mon, 07 Apr 2025 03:49:13 -0400
+
+yt-dlp (2025.03.27-1) unstable; urgency=medium
+
+  * New upstream version 2025.03.27.
+
+ -- Unit 193 <unit193@debian.org>  Sat, 29 Mar 2025 07:24:39 -0400
+
+yt-dlp (2025.03.26-1) unstable; urgency=medium
+
+  * New upstream version 2025.03.26.
+
+ -- Unit 193 <unit193@debian.org>  Tue, 25 Mar 2025 20:31:17 -0400
+
+yt-dlp (2025.03.25-1) unstable; urgency=medium
+
+  * New upstream version 2025.03.25.
+  * Update Standards-Version to 4.7.2.
+
+ -- Unit 193 <unit193@debian.org>  Mon, 24 Mar 2025 20:23:57 -0400
+
+yt-dlp (2025.03.21-1) unstable; urgency=medium
+
+  * New upstream version 2025.03.21.
+
+ -- Unit 193 <unit193@debian.org>  Sat, 22 Mar 2025 06:54:43 -0400
+
+yt-dlp (2025.02.19-1) unstable; urgency=medium
+
+  * New upstream version 2025.02.19.
+    - francetv: Fix extractor. (Closes: #1096171)
+
+ -- Unit 193 <unit193@debian.org>  Wed, 19 Feb 2025 08:09:34 -0500
+
+yt-dlp (2025.01.26-1) unstable; urgency=medium
+
+  * New upstream version 2025.01.26.
+
+ -- Unit 193 <unit193@debian.org>  Mon, 27 Jan 2025 05:32:07 -0500
+
+yt-dlp (2025.01.15-1) unstable; urgency=medium
+
+  * New upstream version 2025.01.15.
+
+ -- Unit 193 <unit193@debian.org>  Thu, 16 Jan 2025 02:28:44 -0500
+
+yt-dlp (2025.01.12-1) unstable; urgency=medium
+
+  * New upstream version 2025.01.12.
+  * d/copyright: Bump years.
+
+ -- Unit 193 <unit193@debian.org>  Sun, 12 Jan 2025 21:52:23 -0500
+
+yt-dlp (2024.12.23-1) unstable; urgency=medium
+
+  * New upstream version 2024.12.23.
+
+ -- Unit 193 <unit193@debian.org>  Tue, 24 Dec 2024 01:53:31 -0500
+
+yt-dlp (2024.12.13-1) unstable; urgency=medium
+
+  * New upstream version 2024.12.13.
+
+ -- Unit 193 <unit193@debian.org>  Sat, 14 Dec 2024 05:07:05 -0500
+
+yt-dlp (2024.12.06-1) unstable; urgency=medium
+
+  * New upstream version 2024.12.06.
+
+ -- Unit 193 <unit193@debian.org>  Sat, 07 Dec 2024 03:33:06 -0500
+
+yt-dlp (2024.12.03-1) unstable; urgency=medium
+
+  * New upstream version 2024.12.03.
+
+ -- Unit 193 <unit193@debian.org>  Wed, 04 Dec 2024 07:52:05 -0500
+
+yt-dlp (2024.11.18-1) unstable; urgency=medium
+
+  * New upstream version 2024.11.18.
+  * d/p/0005-fix-hatchling-breaking-backportability.patch:
+    - Remove the classifiers, because hatchling is braindead dumb.
+
+ -- Unit 193 <unit193@debian.org>  Wed, 20 Nov 2024 01:42:43 -0500
+
+yt-dlp (2024.11.04-1) unstable; urgency=medium
+
+  * New upstream version 2024.11.04.
+  * d/rules: Search 'default' section for depends.
+
+ -- Unit 193 <unit193@debian.org>  Mon, 04 Nov 2024 02:09:50 -0500
+
+yt-dlp (2024.10.22-1) unstable; urgency=medium
+
+  * New upstream version 2024.10.22.
+  * d/control: Drop (Build-)Depends on python3-pkg-resources.
+    Closes: #1084001
+
+ -- Unit 193 <unit193@debian.org>  Tue, 22 Oct 2024 01:24:09 -0400
+
+yt-dlp (2024.10.07-1) unstable; urgency=medium
+
+  * New upstream version 2024.10.07.
+
+ -- Unit 193 <unit193@debian.org>  Mon, 07 Oct 2024 23:28:58 -0400
+
+yt-dlp (2024.09.27-1) unstable; urgency=medium
+
+  * New upstream version 2024.09.27.
+
+ -- Unit 193 <unit193@debian.org>  Sat, 28 Sep 2024 00:32:03 -0400
+
+yt-dlp (2024.08.06-1) unstable; urgency=medium
+
+  * New upstream version 2024.08.06.
+
+ -- Unit 193 <unit193@debian.org>  Mon, 05 Aug 2024 23:42:00 -0400
+
+yt-dlp (2024.08.01-1) unstable; urgency=medium
+
+  * New upstream version 2024.08.01.
+
+ -- Unit 193 <unit193@debian.org>  Thu, 01 Aug 2024 19:49:57 -0400
+
+yt-dlp (2024.07.25-1) unstable; urgency=medium
+
+  * New upstream version 2024.07.25.
+
+ -- Unit 193 <unit193@debian.org>  Fri, 26 Jul 2024 20:46:48 -0400
+
+yt-dlp (2024.07.16-1) unstable; urgency=medium
+
+  * New upstream version 2024.07.16.
+
+ -- Unit 193 <unit193@debian.org>  Wed, 17 Jul 2024 02:06:53 -0400
+
+yt-dlp (2024.07.09-1) unstable; urgency=medium
+
+  * New upstream version 2024.07.09.
+
+ -- Unit 193 <unit193@debian.org>  Tue, 09 Jul 2024 01:30:28 -0400
+
+yt-dlp (2024.07.07-1) unstable; urgency=medium
+
+  * New upstream version 2024.07.07.
+
+ -- Unit 193 <unit193@debian.org>  Mon, 08 Jul 2024 02:39:24 -0400
+
+yt-dlp (2024.07.02-1) unstable; urgency=medium
+
+  * New upstream version 2024.07.02.
+
+ -- Unit 193 <unit193@debian.org>  Tue, 02 Jul 2024 20:22:59 -0400
+
+yt-dlp (2024.07.01-1) unstable; urgency=medium
+
+  * New upstream version 2024.07.01.
+    - Disallow unsafe extensions (CVE-2024-38519)
+
+ -- Unit 193 <unit193@debian.org>  Tue, 02 Jul 2024 03:53:05 -0400
+
+yt-dlp (2024.05.27-1) unstable; urgency=medium
+
+  * New upstream version 2024.05.27.
+
+ -- Unit 193 <unit193@debian.org>  Tue, 28 May 2024 21:13:46 -0400
+
+yt-dlp (2024.05.26-1) unstable; urgency=medium
+
+  * New upstream version 2024.05.26.
+    - Drop patch fixed upstream, refresh remaining.
+
+ -- Unit 193 <unit193@debian.org>  Sun, 26 May 2024 21:43:13 -0400
+
+yt-dlp (2024.04.09-1) unstable; urgency=medium
+
+  * New upstream version 2024.04.09.
+    - d/patches: Fix zsh's path, refresh remaining patches.
+  * d/p/0005-Skip-failing-tests.patch: Skip failing tests.
+  * Update Standards-Version to 4.7.0.
+
+ -- Unit 193 <unit193@debian.org>  Wed, 17 Apr 2024 03:26:07 -0400
+
+yt-dlp (2024.03.10-1) unstable; urgency=medium
+
+  * New upstream version 2024.03.10.
+    - Refresh patches.
+  * d/control: Replace python3-setuptools with python3-hatchling.
+  * d/t/upstream-tests.sh: Exclude websocket tests for now, requires version 12
+
+ -- Unit 193 <unit193@debian.org>  Mon, 11 Mar 2024 03:49:02 -0400
+
+yt-dlp (2023.12.30-1) unstable; urgency=medium
+
+  * New upstream version 2023.12.30.
+  * d/copyright: Bump years.
+
+ -- Unit 193 <unit193@debian.org>  Mon, 01 Jan 2024 03:45:30 -0500
+
+yt-dlp (2023.11.16-1) unstable; urgency=medium
+
+  * New upstream version 2023.11.16.
+    - Patch Generic Extractor MITM Vulnerability via Arbitrary Proxy Injection.
+      Disallow smuggling of arbitrary http_headers; extractors now only use
+      specific headers. (Closes: #1055996, CVE-2023-46121)
+  * d/control: Drop rtmpdump and mpv, as their use is deprecated.
+  * d/t/upstream-tests.sh: Fix a typo in a variable name.
+
+ -- Unit 193 <unit193@debian.org>  Thu, 16 Nov 2023 02:25:22 -0500
+
+yt-dlp (2023.10.13-1) unstable; urgency=medium
+
+  * New upstream version 2023.10.13.
+  * d/control: Drop attr alternatives. Thanks, Christoph Anton Mitterer.
+  * d/t/upstream-tests.sh: Unset proxy variables for Ubuntu's CI.
+
+ -- Unit 193 <unit193@debian.org>  Sat, 14 Oct 2023 01:27:23 -0400
+
+yt-dlp (2023.10.07-1) unstable; urgency=medium
+
+  * New upstream version 2023.10.07.
+
+ -- Unit 193 <unit193@debian.org>  Sat, 07 Oct 2023 02:48:38 -0400
+
+yt-dlp (2023.09.24-2) unstable; urgency=medium
+
+  * d/t/control: Allow stderr.
+
+ -- Unit 193 <unit193@debian.org>  Sun, 01 Oct 2023 21:51:27 -0400
+
+yt-dlp (2023.09.24-1) unstable; urgency=medium
+
+  * New upstream version 2023.09.24.
+    - Refresh patch.
+  * d/control: Add python3-xattr, attr as alternatives to python3-pyxattr.
+    Closes: #987753
+
+ -- Unit 193 <unit193@debian.org>  Sat, 23 Sep 2023 22:23:43 -0400
+
+yt-dlp (2023.07.06-1) unstable; urgency=medium
+
+  * New upstream version 2023.07.06.
+
+ -- Unit 193 <unit193@debian.org>  Fri, 07 Jul 2023 01:58:53 -0400
+
+yt-dlp (2023.06.22-1) unstable; urgency=medium
+
+  * New upstream version 2023.06.22.
+
+ -- Unit 193 <unit193@debian.org>  Thu, 22 Jun 2023 22:56:05 -0400
+
+yt-dlp (2023.06.21-1) unstable; urgency=medium
+
+  * New upstream version 2023.06.21.
+  * d/control: Update Vcs-* fields for new home.
+
+ -- Unit 193 <unit193@debian.org>  Wed, 21 Jun 2023 00:38:02 -0400
+
+yt-dlp (2023.03.04-1) unstable; urgency=medium
+
+  * d/control, d/gbp.conf, d/rules: Move generation of extractors to buildtime.
+    Thanks to Paul Wise.
+  * New upstream version 2023.03.04.
+
+ -- Unit 193 <unit193@debian.org>  Mon, 06 Mar 2023 01:34:38 -0500
+
+yt-dlp (2023.02.17-1) unstable; urgency=medium
+
+  * New upstream version 2023.02.17.
+    - youtube: Fix uploader_id extraction. (Closes: #1031522)
+    - Refresh supported sites.
+  * d/rules: Opt-out of trimmed changelogs.
+
+ -- Unit 193 <unit193@debian.org>  Fri, 17 Feb 2023 18:37:11 -0500
+
+yt-dlp (2023.01.06-1) unstable; urgency=medium
+
+  * New upstream version 2023.01.06.
+    - Refresh supported sites.
+    - Refresh patch.
+  * d/control: Build-Depend on pybuild-plugin-pyproject.
+
+ -- Unit 193 <unit193@debian.org>  Fri, 06 Jan 2023 20:33:39 -0500
+
+yt-dlp (2023.01.02-1) unstable; urgency=medium
+
+  * New upstream version 2023.01.02.
+    - Refresh supported sites.
+  * d/copyright: Bump years.
+  * Update Standards-Version to 4.6.2.
+
+ -- Unit 193 <unit193@debian.org>  Tue, 03 Jan 2023 04:09:06 -0500
+
+yt-dlp (2022.11.11-1) unstable; urgency=medium
+
+  * New upstream version 2022.11.11.
+    - Refresh supported sites.
+    - Refresh patch.
+
+ -- Unit 193 <unit193@debian.org>  Sat, 12 Nov 2022 19:17:05 -0500
+
+yt-dlp (2022.10.04-1) unstable; urgency=medium
+
+  * New upstream version 2022.10.04.
+    - Refresh supported sites.
+    - Refresh patches.
+
+ -- Unit 193 <unit193@debian.org>  Tue, 04 Oct 2022 04:52:29 -0400
+
+yt-dlp (2022.09.01-1) unstable; urgency=medium
+
+  * New upstream version 2022.09.01.
+    - Refresh supported sites.
+
+ -- Unit 193 <unit193@debian.org>  Thu, 01 Sep 2022 17:35:30 -0400
+
+yt-dlp (2022.08.19-1) unstable; urgency=medium
+
+  * New upstream version 2022.08.19.
+    - Refresh supported sites.
+  * d/p/0002-setup.py-Do-not-include-devscripts-as-a-package.patch:
+     - Drop upstream patch.
+
+ -- Unit 193 <unit193@debian.org>  Thu, 18 Aug 2022 22:30:28 -0400
+
+yt-dlp (2022.08.14-2) unstable; urgency=medium
+
+  * d/p/0002-setup.py-Do-not-include-devscripts-as-a-package.patch:
+    - Grab an upstream commit to exclude the devscripts from the package.
+
+ -- Unit 193 <unit193@debian.org>  Mon, 15 Aug 2022 04:24:18 -0400
+
+yt-dlp (2022.08.14-1) unstable; urgency=medium
+
+  * New upstream version 2022.08.14.
+    - Refresh supported sites.
+
+ -- Unit 193 <unit193@debian.org>  Sun, 14 Aug 2022 22:28:53 -0400
+
+yt-dlp (2022.08.08-1) unstable; urgency=medium
+
+  * New upstream version 2022.08.08.
+    - Refresh supported sites.
+  * d/p/0002-Disable-upstream-s-autoupdate-mechanism.patch:
+    - Drop, refresh remaining.
+  * d/rules: Use new upstream feature to set variant and update message.
+    (Closes: #1001776)
+
+ -- Unit 193 <unit193@debian.org>  Mon, 08 Aug 2022 23:57:25 -0400
+
+yt-dlp (2022.07.18-1) unstable; urgency=medium
+
+  * New upstream version 2022.07.18.
+    - [build] Consistent order for lazy extractors by lamby. (Closes: #1014041)
+    - Refresh supported sites.
+    - Refresh patches.
+
+ -- Unit 193 <unit193@debian.org>  Mon, 18 Jul 2022 23:36:50 -0400
+
+yt-dlp (2022.06.29-1) unstable; urgency=medium
+
+  * New upstream version 2022.06.29.
+    - Refresh supported sites.
+    - Refresh patches.
+
+ -- Unit 193 <unit193@debian.org>  Thu, 30 Jun 2022 22:22:01 -0400
+
+yt-dlp (2022.06.22.1-1) unstable; urgency=medium
+
+  * New upstream version 2022.06.22.1. (Closes: #1013332)
+    - Refresh supported sites.
+    - Refresh patches.
+  * d/control: Lower mpv to suggests, it's only used in rtsp
+    streams and seems those are unpopular.
+
+ -- Unit 193 <unit193@debian.org>  Wed, 22 Jun 2022 18:45:03 -0400
+
+yt-dlp (2022.05.18-1) unstable; urgency=medium
+
+  * New upstream version 2022.05.18.
+    - Refresh supported sites.
+    - Refresh patches.
+  * Update Standards-Version to 4.6.1.
+
+ -- Unit 193 <unit193@debian.org>  Thu, 19 May 2022 05:25:24 -0400
+
+yt-dlp (2022.04.08-1) unstable; urgency=medium
+
+  * New upstream version 2022.04.08.
+    - Refresh supported sites.
+    - Refresh patch.
+  * d/control: Require dh-python 5.20211213 for 'environment marker' support.
+    (LP: #1967266)
+
+ -- Unit 193 <unit193@debian.org>  Sat, 09 Apr 2022 00:56:04 -0400
+
+yt-dlp (2022.03.08.1-1) unstable; urgency=medium
+
+  * New upstream version 2022.03.08.1.
+    - Refresh supported sites.
+    - Refresh patch.
+
+ -- Unit 193 <unit193@debian.org>  Tue, 08 Mar 2022 20:00:37 -0500
+
+yt-dlp (2022.02.04-1) unstable; urgency=medium
+
+  * New upstream version 2022.02.04.
+
+ -- Unit 193 <unit193@debian.org>  Fri, 04 Feb 2022 02:11:34 -0500
+
+yt-dlp (2022.02.03-1) unstable; urgency=medium
+
+  * New upstream version 2022.02.03.
+    - Refresh supported sites.
+    - Refresh patch.
+
+ -- Unit 193 <unit193@debian.org>  Thu, 03 Feb 2022 20:39:11 -0500
+
+yt-dlp (2022.01.21-1) unstable; urgency=medium
+
+  * New upstream version 2022.01.21.
+    - Refresh supported sites.
+    - Refresh patches.
+  * d/copyright: Update years.
+
+ -- Unit 193 <unit193@debian.org>  Fri, 21 Jan 2022 23:13:03 -0500
+
+yt-dlp (2021.12.27-1) unstable; urgency=medium
+
+  * Prepare for git.
+  * Add autopkgtest to run upstream's testsuite.
+  * New upstream version 2021.12.27.
+    - Refresh supported sites.
+    - Refresh patch.
+
+ -- Unit 193 <unit193@debian.org>  Wed, 29 Dec 2021 20:34:30 -0500
+
+yt-dlp (2021.12.01-1) unstable; urgency=medium
+
+  * Initial release, adapting packaging from youtube-dl. (Closes: #1001933)
+
+ -- Unit 193 <unit193@debian.org>  Tue, 21 Dec 2021 03:49:23 -0500

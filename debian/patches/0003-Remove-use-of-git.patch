@@ -14,6 +14,6 @@ Forwarded: not-needed
  # make pypi-files && python3 -m build -sn .
 -pypi-files: AUTHORS Changelog.md LICENSE README.md README.txt supportedsites \
 +pypi-files: Changelog.md LICENSE README.md README.txt supportedsites \
-             completions yt-dlp.1 pyproject.toml setup.cfg devscripts/* test/*
+             completions yt-dlp.1 pyproject.toml devscripts/* test/*
  
  .PHONY: all clean clean-all clean-test clean-dist clean-cache \

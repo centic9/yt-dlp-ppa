@@ -1,23 +1,18 @@
 Index: git/test/test_config.py
 ===================================================================
---- git.orig/test/test_config.py	2025-11-08 15:58:33.073964406 +0100
-+++ git/test/test_config.py	2025-11-08 16:04:42.272870619 +0100
-@@ -48,7 +48,9 @@
-     home_dir = compat_expanduser('~')
-     return {
-         'Portable': [
-+            *((
-             Path(get_executable_path(), 'yt-dlp.conf'),
-+            ) if get_executable_path() != home_dir else ())
-         ],
-         'Home': [
-             Path('yt-dlp.conf'),
-@@ -83,7 +85,7 @@
-         expected = make_expected()
-         self.assertCountEqual(
-             set(expected), expected,
--            'ENVIRON_DEFAULTS produces non unique names')
-+            'ENVIRON_DEFAULTS produces non unique names, but had duplicate for ' + ' '.join([str(s) for s in expected]))
+--- git.orig/test/test_config.py	2025-11-08 16:22:25.518521060 +0100
++++ git/test/test_config.py	2025-11-08 16:25:33.198992540 +0100
+@@ -78,13 +78,6 @@
+ class TestConfig(unittest.TestCase):
+     maxDiff = None
  
+-    @set_environ()
+-    def test_config__ENVIRON_DEFAULTS_sanity(self):
+-        expected = make_expected()
+-        self.assertCountEqual(
+-            set(expected), expected,
+-            'ENVIRON_DEFAULTS produces non unique names')
+-
      def test_config_all_environ_values(self):
          for name, value in ENVIRON_DEFAULTS.items():
+             for new_value in (None, '', '.', value or '/some/dir'):

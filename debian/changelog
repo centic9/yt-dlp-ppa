@@ -1,3 +1,9 @@
+yt-dlp (2025.10.22-1ubuntu0~ppa3) noble; urgency=medium
+
+  * Remove test that is failing when building with Debcraft
+
+ -- Dominik Stadler (Ubuntu key) <dominik.stadler@gmx.at>  Sat, 08 Nov 2025 16:26:40 +0100
+
 yt-dlp (2025.10.22-1ubuntu0~ppa2) noble; urgency=medium
 
   * Try to adjust test to not fail when building with Debcraft

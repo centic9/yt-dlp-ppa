@@ -1,5 +1,5 @@
-01_more_output_in_test
 0001-Debianize-paths.patch
 0003-Remove-use-of-git.patch
 0004-Makefile-Don-t-run-flake8-when-running-offlinetest.patch
 0005-fix-hatchling-breaking-backportability.patch
+0006_more_output_in_test.patch

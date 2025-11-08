@@ -1,0 +1,13 @@
+Index: git/test/test_config.py
+===================================================================
+--- git.orig/test/test_config.py	2025-11-08 15:52:06.097021183 +0100
++++ git/test/test_config.py	2025-11-08 15:53:17.561193628 +0100
+@@ -83,7 +83,7 @@
+         expected = make_expected()
+         self.assertCountEqual(
+             set(expected), expected,
+-            'ENVIRON_DEFAULTS produces non unique names')
++            'ENVIRON_DEFAULTS produces non unique names, but had duplicate for ' + ' '.join([str(s) for s in expected]))
+ 
+     def test_config_all_environ_values(self):
+         for name, value in ENVIRON_DEFAULTS.items():
